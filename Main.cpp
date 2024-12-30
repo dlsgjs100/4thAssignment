@@ -29,7 +29,7 @@ public:
 		books.push_back(Book(title, author)); // push_back 사용
 		cout << "책이 추가되었습니다: " << title << " by " << author << endl;
 	}
-
+     
 	// 모든 책 출력 메서드
 	void displayAllBooks() const {
 		if (books.empty()) {
